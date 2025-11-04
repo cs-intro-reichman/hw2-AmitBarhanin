@@ -8,15 +8,17 @@ public class TimeCalc {
         int totalMin = (hours * 60) + minutes + minutesToAdd;
         int totalHours = totalMin/60;
         String updatedHours = totalHours % 24 + "";
+        System.out.println(updatedHours + ":");
         String updatedMin = totalMin - (totalHours * 60)+ "";
+         System.out.println(updatedMin);
         if (updatedHours.length() < 2) {
             updatedHours = "0" + updatedHours;
         }
         if (updatedMin.length() < 2
         ) {
             updatedMin = "0" + updatedMin;
-        System.out.println(updatedHours + ":" + updatedMin);
         }
+        System.out.println(updatedHours + ":" + updatedMin);
         
 
     }
