@@ -5,7 +5,7 @@ public class Cheers {
                 int nTimes = Integer.parseInt(args[1]);
                 char[] wordArr = word.toCharArray();
                 for (int i = 0; i < wordArr.length; i++) {
-                        String anOrA = "a";
+                        String anOrA = "a ";
                         switch (wordArr[i]) {
                                 case 'A':
                                         anOrA = "an";
