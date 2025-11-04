@@ -16,7 +16,7 @@ public class TimeCalc {
         ) {
             updatedMin = "0" + updatedMin;
         System.out.println(updatedHours + ":" + updatedMin);
-        
+        }
         
 
     }
