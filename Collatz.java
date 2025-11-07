@@ -23,7 +23,6 @@ public class Collatz {
 				System.out.println();
 			}
 		}
-		System.out.println();
 		System.out.println("Every one of the first " + seeds + " hailstone sequences reached 1.");
 
 	}
